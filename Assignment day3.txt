@@ -1,0 +1,33 @@
+>>> class Animal:
+...     def make_sound(self):
+...         print("Generic animal sound")
+...
+>>> # Step 2: Create two subclasses Dog and Cat, each inheriting from the Animal class
+>>> class Dog(Animal):
+...     def make_sound(self):
+...         # Step 3: Override the make_sound() method with the dog's sound
+...         print("Bark! Bark!")
+...
+>>> class Cat(Animal):
+...     def make_sound(self):
+...         # Step 3: Override the make_sound() method with the cat's sound
+...         print("Meow! Meow!")
+...
+>>> # Step 4: Implement a function called animal_sound_in_zoo() that takes an animal object as a parameter and calls its make_sound() method
+>>> def animal_sound_in_zoo(animal):
+...     animal.make_sound()
+...
+>>> # Step 5: Create instances of Dog and Cat classes and call the animal_sound_in_zoo() function with these instances as arguments to observe their unique sounds.
+>>> dog_instance = Dog()
+>>> cat_instance = Cat()
+>>>
+>>> animal_sound_in_zoo(dog_instance)  # Output will be: Bark! Bark!
+Bark! Bark!
+>>> animal_sound_in_zoo(cat_instance)  # Output will be: Meow! Meow!
+Meow! Meow!
+>>>
+>>>
+>>> animal_sound_in_zoo(cat_instance)
+Meow! Meow!
+>>> animal_sound_in_zoo(dog_instance)
+Bark! Bark!
