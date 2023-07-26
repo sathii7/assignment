@@ -20,13 +20,6 @@
 >>> # Step 5: Create instances of Dog and Cat classes and call the animal_sound_in_zoo() function with these instances as arguments to observe their unique sounds.
 >>> dog_instance = Dog()
 >>> cat_instance = Cat()
->>>
->>> animal_sound_in_zoo(dog_instance)  # Output will be: Bark! Bark!
-Bark! Bark!
->>> animal_sound_in_zoo(cat_instance)  # Output will be: Meow! Meow!
-Meow! Meow!
->>>
->>>
 >>> animal_sound_in_zoo(cat_instance)
 Meow! Meow!
 >>> animal_sound_in_zoo(dog_instance)
